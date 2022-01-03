@@ -40,7 +40,7 @@ class CETCALCartographieLoader
         try
         {
           $client = new Client();
-          $response = $client->get('https://api.mapbox.com/geocoding/v5/mapbox.places/'.$entiteDto->adresse.'.json?limit=1&country=FR&access_token=pk.eyJ1IjoiY2V0Y2FsbWFwYm94IiwiYSI6ImNrbTBiOXN4czNsM3oyb253dzhqNnptMG0ifQ.IW-3RkU6unL_6pAry6tLbg', 
+          $response = $client->get('https://api.mapbox.com/geocoding/v5/mapbox.places/'.$entiteDto->adresse.'.json?limit=1&country=FR&access_token=pk.eyJ1IjoiZGVjaWRlbGFiaW9sb2NhbGUiLCJhIjoiY2t4c3J1b3pmMTV4cDJzbXZ6aWtxOTNrbiJ9.UrHhSVL477MEsqwLPJubrQ', 
             ['synchronous' => true]);
           $latLng = $this->forwardGeocoderMapbox(json_decode($response->getBody()->getContents()));
           $model->insertEntite($latLng, $entiteDto->getPk());
@@ -130,7 +130,7 @@ class CETCALCartographieLoader
           error_log("[CETCALCartographieLoader] adresse producteur definie pour geoloc(pk=".$prdDto->getPk().")=".$adr);
           if (empty($adr) || strlen($adr) <= 5) continue;
           $client = new Client();
-          $response = $client->get('https://api.mapbox.com/geocoding/v5/mapbox.places/'.$adr.'.json?limit=1&country=FR&access_token=pk.eyJ1IjoiY2V0Y2FsbWFwYm94IiwiYSI6ImNrbTBiOXN4czNsM3oyb253dzhqNnptMG0ifQ.IW-3RkU6unL_6pAry6tLbg', 
+          $response = $client->get('https://api.mapbox.com/geocoding/v5/mapbox.places/'.$adr.'.json?limit=1&country=FR&access_token=pk.eyJ1IjoiZGVjaWRlbGFiaW9sb2NhbGUiLCJhIjoiY2t4c3J1b3pmMTV4cDJzbXZ6aWtxOTNrbiJ9.UrHhSVL477MEsqwLPJubrQ', 
             ['synchronous' => true]);
           $latLng = $this->forwardGeocoderMapbox(json_decode($response->getBody()->getContents()));
           $model->insert($latLng, $prdDto->getPk());
