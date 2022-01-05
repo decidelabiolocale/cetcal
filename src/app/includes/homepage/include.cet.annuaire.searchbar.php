@@ -7,10 +7,11 @@
 
                     <div class="col-3 d-flex p-0" id="cet-annuaire-recherche-communes-homepage-container">
                         <input class="search-input text-center searchtxt-bleu typeahead"
-                               placeholder="Rechercher votre commune"
-                               aria-label=""
-                               id="cet-annuaire-recherche-communes-homepage-value"
-                               name="cet-annuaire-recherche-communes-homepage-value"/>
+                            autocomplete="new-password"
+                            placeholder="Rechercher votre commune"
+                            aria-label=""
+                            id="cet-annuaire-recherche-communes-homepage-value"
+                            name="cet-annuaire-recherche-communes-homepage-value"/>
                     </div>
 
                     <div class="d-flex col-3 p-0 perimeter-search justify-content-center align-items-center">
@@ -70,7 +71,7 @@
                     <div class="col-12 d-flex p-0">
                         <label class="label" for="search-input"></label>
                         <input class="search-input text-center searchtxt-bleu" type="text"
-                               placeholder="Rechercher votre commune" autocomplete="false"/>
+                               placeholder="Rechercher votre commune" autocomplete="off"/>
                     </div>
 
                     <div class="col-12 d-flex p-0">
