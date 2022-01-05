@@ -14,6 +14,7 @@ $types_entites = $entite_types_ctrl->getDistinctTypesEntites();
         </div>
         <div id="cet-annuaire-recherche-communes-conatiner">
           <input type="text" class="typeahead" placeholder="Rechercher votre commune" 
+            autocomplete="new-password"
             id="cet-annuaire-recherche-communes-value" 
             name="cet-annuaire-recherche-communes-value" 
             aria-describedby="rav-rayon-text"
