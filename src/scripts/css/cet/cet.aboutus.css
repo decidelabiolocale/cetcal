@@ -1,0 +1,75 @@
+.text-aboutus{
+    margin-top: 24px;
+}
+.text-aboutus p{
+    padding: 0;
+    margin: 0;
+    font-family: Signika;
+    font-weight: 300;
+    font-size: 14px;
+    color: #059b30;
+}
+
+h6{
+    color: #059b30;
+    font-family: Signika;
+    font-weight: 900;
+    padding: 0;
+    margin: 14px 0 0 0;
+}
+
+.address-wrapper{
+    background-color: #bdddea;
+    border-radius: 0.70rem;
+}
+
+.address-wrapper,
+address > a{
+    text-decoration: none;
+    font-weight: 350;
+}
+address > a:hover{
+    text-decoration: none;
+}
+.address-card-title{
+    font-family: Signika;
+    font-weight: bold;
+    color: #059b30;
+}
+
+address {
+    color: #059b30;
+}
+
+.cst-pills__green{
+    text-decoration: none;
+    line-height: 1;
+    border-color: #059b30;
+    color: #ffff;
+    background: #059b30;
+    font-size: 16px;
+    border-radius: 10rem;
+    margin: 5px 1px 5px;
+    padding: .25em .6em .4em .6em;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+.logo-dcdl{
+    height: 13.4375rem;
+}
+
+/*ABOUTUS SECTION*/
+
+.aboutus--bg{
+    background-color: #bdddea;
+}
+
+/*trait*/
+
+.trait--green{
+    width: 100%;
+    border: 1px solid #219130;
+}

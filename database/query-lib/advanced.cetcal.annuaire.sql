@@ -1,0 +1,1 @@
+SELECT distinct(prd.pk_producteur) FROM cetcaL.cetcal_producteur prd, cetcaL.cetcal_produit p, cetcaL.producteur_join_produits j WHERE 1=1 AND p.pk_produit=j.fk_produits_join AND j.fk_producteur_join=prd.pk_producteur AND p.nom LIKE '%tomate%';

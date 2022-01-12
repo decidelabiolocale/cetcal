@@ -1,0 +1,7 @@
+-- grange aux abeilles : 
+update cetcal_cartographie set cetcal_prd_lat='0.03935878322', cetcal_prd_lng='44.98587959'
+-- champi entre deux mers :
+ pk_cartographie | cetcal_prd_lat | cetcal_prd_lng | fk_producteur | fk_entite |
++-----------------+----------------+----------------+---------------+-----------+
+|            1352 | -0.153398      | 44.760067      |       1000022 |        -1 |
+

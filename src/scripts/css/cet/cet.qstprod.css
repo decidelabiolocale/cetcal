@@ -1,0 +1,408 @@
+a:active:hover, button:active:hover { background-color: rgb(250, 250, 250) !important; }
+/** boutons copier-coller presse papier */
+button.copier-element-presse-papier { float: right; padding: 4px; font-weight: bolder !important; }
+input.copier-element-presse-papier-input[disabled="disabled"] { background-color: white; }
+/** END boutons copier-coller presse papier */
+/***************************************/
+/** START style charte graphique Fanny */ 
+.navbar { 
+  /*margin-bottom: 28px; */
+  background-color: rgb(252,255,255) !important;
+  /*border-bottom: 1px solid lightgrey !important;
+  -webkit-box-shadow: 0 0px 12px -6px #222;
+  -moz-box-shadow: 0 0px 12px -6px #222;
+  box-shadow: 0 0px 12px -6px #222;*/
+}
+.navbar a.cet-p, a.dropdown-item { 
+  font-family: 'Signika' !important;
+  color: #DD4215 !important; 
+}
+.navbar a.cet-p-20 { 
+  font-family: 'Signika' !important;
+  color: #DD4215 !important; 
+  font-size: 20px !important; 
+}
+.navbar .navbar-toggler {
+  background-color: #009c31 !important;
+  color: white !important;
+  border-color: white !important;
+  padding-top: 6px;
+}
+.navbar .navbar-brand {
+  color: #009c31 !important; font-family: 'Signika' !important; font-weight: 
+  bold; font-size: 20px;
+}
+span.cet-navbar-toggler {
+  vertical-align: middle; font-size: 43px;
+}
+a.cet-p { color: #DD4215 !important; font-family: 'Signika' !important; }
+.navbar a.cet-p:hover, .cet-footer a.cet-p:hover { color: #DD4215 !important; }
+li.cet-footer-li { background-color: white !important; }
+.cet-footer { 
+  background-color: rgb(252,255,255) !important;
+  /*border-top: 1px solid lightgrey !important; 
+  -webkit-box-shadow: 0 0px 12px -6px #222;
+  -moz-box-shadow: 0 0px 12px -6px #222;
+  box-shadow: 0 0px 12px -6px #222;*/
+}
+.cet-bienvenue-producteurs { 
+  background-color: white !important;
+  color: #6C3012 !important; 
+  font-family: 'Signika', sans-serif;
+} 
+.cet-bloc {
+  background-color: #CAE3EE !important;
+  font-family: 'Signika', sans-serif;
+color: #6C3012 !important;
+}
+a.cet-navbar-btn, button.cet-navbar-btn { 
+  font-family: 'Signika' !important;
+  color: white !important; 
+  font-size: 18px; 
+  background-color: #DD4215 !important;
+}
+a.cet-navbar-btn-small, button.cet-navbar-btn-small { 
+  font-family: 'Signika' !important;
+  color: white !important; 
+  font-size: 16px;
+  margin-right: 4px;
+  margin-bottom: 8px;
+}
+span.cet-prepend-span {
+  font-family: 'Signika' !important;
+  font-size: 16px !important;
+  margin-bottom: 8px;
+}
+.cet-footer a.cet-p, small.cet-email-tag { font-family: 'Signika' !important,
+ cursive; color: white !important; }
+button.margin-80-infeq-700 { margin-top: 80px !important; }
+/** END style Fanny ********************/
+/***************************************/
+/*********************************/
+/** CSS toutes pages. ************/
+.intro-prd-lire-plus, .intro-inscription-lire-plus { display: none; }
+.cet-borderless-alert { padding: 0px !important; }
+.cet-p-dark { color: rgb(50,70,50); }
+.cet-navbar-btn-infos {
+  /*border: 1px solid yellow;*/
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(247,255,0,1);
+  -moz-box-shadow: 0px 0px 0px 4px rgba(247,255,0,1);
+  box-shadow: 0px 0px 0px 4px rgba(247,255,0,1);
+  margin-right: 16px;
+}
+label.annuaire-user-signup-cbx { margin-bottom: 8px; }
+div.mandatory-cbx-group {
+  border: 1px solid red; border-radius: 6px; background-color: white; padding: 12px;
+}
+.cet-carte-info { margin-bottom: 22px; }
+.cet-carte-info a, p { font-family: 'Signika', sans-serif; }
+.cet-carte-info .card-header { font-family: 'Courgette', cursive; font-weight: bold; color: #DD4215 !important; }
+span.cet-r-q { background-color: yellow !important; font-style: italic; }
+div.row { margin-left: 0px !important; margin-right: 0px !important; }
+.cet-formgroup-container { 
+  background-color: #CAE3EE !important;
+font-family: 'Signika', sans-serif;
+color: #6C3012 !important;
+border: 1px solid lightgrey; border-radius: 4px;
+padding: 16px; margin-bottom: 20px;
+/*background-color: rgb(250, 250, 250); border: 1px solid lightgrey; border-radius: 4px; padding: 16px; margin-bottom: 20px;*/
+}
+.list-group-item {
+  background-color: #CAE3EE !important;
+}
+label { font-family: 'Signika', sans-serif;
+color: #6C3012 !important; }
+.cet-table * { font-family: 'Signika', sans-serif;
+color: #6C3012 !important; }
+.cet-fil-arianne * { font-family: 'Signika', sans-serif;
+color: #6C3012 !important; }
+.cet-accordion { 
+  /*background-color: rgb(250, 250, 250);*/
+  background-color: #CAE3EE !important;
+font-family: 'Signika', sans-serif;
+color: #6C3012 !important; border: 1px solid lightgrey; border-radius: 4px; margin-bottom: 20px; }
+.cet-formgroup-inner-container { background-color: rgb(255, 255, 255) !important; }
+/** libellés de block : **/
+label.cet-formgroup-container-label { 
+  /*color: rgb(30, 40, 30); font-size: 18px; */
+  font-family: 'Signika', sans-serif;
+color: #6C3012 !important;font-size: 18px;
+}
+
+button.cet-recherche-produit-element-btn { margin-left: 2px; }
+.cet-qstprod-label-text { 
+/*color: rgb(70, 80, 40);*/
+font-family: 'Signika', sans-serif;
+color: #6C3012 !important }
+.cet-input-label { 
+  font-family: 'Signika', sans-serif;
+color: #6C3012 !important;margin-left: 8px; }
+.cet-idcetwww-char { margin-bottom: 4px; font-size: 26px; font-weight: normal; padding: 6px; }
+.cet-qstprod-btnnav { margin-top: 20px; }
+.cet-accordion-icon { 
+  color: #5cb85c; float: right; font-size:28px; margin-left: 12px; }
+.cet-accordion-icon:hover { color: #28a745; }
+.cet-accordion-badge { 
+  background-color: #5cb85c; font-size: 16px; font-weight: lighter; padding: 6px; 
+  white-space: normal;
+  margin-bottom: 6px; 
+}
+.cet-accordion-badge:hover { background-color: #28a745 !important; }
+.form { margin-bottom: 60px; }
+label { margin-left: 4px !important; }
+.table { border-style: 1px solid black !important; }
+/*.carousel-inner p, h5, span, li, ol { color: black; }*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+.carousel-item .img-fluid {
+  width:100%;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: rgb(34, 139, 34);
+}
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: rgb(34, 139, 34);
+}
+.cet-footer {
+  padding: 2.5rem 0;
+  color: rgb(50,70,50);
+  background-color: #f9f9f9;
+}
+.cet-footer p:last-child {
+  margin-bottom: 0;
+}
+p.cet-p, a.cet-p { color: #6C3012 !important; }
+span.cet-span { color: #6C3012 !important; padding-left: 12px; }
+/*a.cet-p:hover { color: rgb(34, 100, 34) !important; }*/
+span.cet-span-link { color: rgb(2, 117, 216); }
+p.cet-a-type-link { color: rgb(2, 117, 216); }
+p.cet-a-type-link:hover { cursor: pointer; }
+span.cet-span-link:hover { cursor: pointer; }
+p.cet-p-link:hover { cursor: pointer; }
+span.cet-qstprod-produit-type { 
+  font-size: 14px; 
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 6px;
+  margin: 2px;
+  display: inline-block;
+}
+
+span.cet-qstprod-produit-type.legumes {
+  color: #007E33 !important;
+  border: 1px solid #007E33;
+}
+span.cet-qstprod-produit-type.viandes {
+  color: #ef5350 !important;
+  border: 1px solid #ef5350;
+}
+span.cet-qstprod-produit-type.laitiers {
+  color: #69f0ae !important;
+  border: 1px solid #69f0ae;
+}
+span.cet-qstprod-produit-type.ruches {
+  color: #ffa000 !important;
+  border: 1px solid #ffa000;
+}
+span.cet-qstprod-produit-type.fruits {
+  color: #ef6c00 !important;
+  border: 1px solid #ef6c00;
+}
+span.cet-qstprod-produit-type.champignons {
+  color: #4e342e !important;
+  border: 1px solid #4e342e;
+}
+span.cet-qstprod-produit-type.plantes {
+  color: #1b5e20 !important;
+  border: 1px solid #1b5e20;
+}
+span.cet-qstprod-produit-type.semences {
+  color: #00695c !important;
+  border: 1px solid #00695c;
+}
+span.cet-qstprod-produit-type.transformes {
+  color: #0d47a1 !important;
+  border: 1px solid #0d47a1;
+}
+
+span.cet-qstprod-produit-type.hygienes {
+  color: #37474F !important;
+  border: 1px solid #37474F;
+}
+span.cet-qstprod-produit-type.entretiens {
+  color: #37474F !important;
+  border: 1px solid #37474F;
+}
+span.cet-qstprod-produit-type.nourritureanimaux {
+  color: #37474F !important;
+  border: 1px solid #37474F;
+}
+span.cet-qstprod-produit-type.autres {
+  color: #37474F !important;
+  border: 1px solid #37474F;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+/***********************************************************************************************
+ * page tableau listing complet des producteurs. */
+.cetcal-producteur-listing table {
+  table-layout: fixed;
+  margin-bottom: 32px;
+}
+.cetcal-producteur-listing td, th {
+  word-wrap: break-word;
+}
+.cetcal-producteur-listing ul { margin-left: -18px !important; }
+tr.cetcal-producteur-listing-head-tr th {
+  font-family: 'Courgette', cursive;
+  color: #DD4215 !important;
+  font-weight: lighter !important;
+}
+td.prd-listing-nom-ferme {
+  font-family: 'Courgette', cursive;
+  color: #DD4215 !important;
+  font-weight: lighter !important;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+}
+span.prd-listing-mat-prd {
+  font-size: 11px;
+  float: left !important;
+  margin-left: 0px;
+}
+/***********************************************************************************************/
+
+/***********************************************************************************************
+ * block, producteur.e.s derniers inscrits */
+span.prd-a-lhonneur-denomination {
+/*  font-family: 'Courgette', cursive;
+  color: #DD4215 !important;*/
+  font-weight: lighter !important;
+  font-size: 18px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-left: -8px;
+}
+span.prd-a-lhonneur-denomination:hover {
+  cursor: pointer;
+  background-color: #DD4215;
+  color: white;
+  border-radius: 5px;
+}
+/***********************************************************************************************/
+div.cetcal-recette-header:hover {
+  cursor: pointer !important;
+}
+table.cetcal-table-producteurs-recette td {
+  padding: 0px !important;
+}
+table#cetcal-admin-producteurs td {
+  padding: 0px !important; 
+  padding-left: 3px !important;
+}
+table#cetcal-admin-producteurs th {
+  padding: 0px !important; 
+  padding-left: 3px !important;
+  text-align: left;;
+}
+
+/******** ESPACE PRODUCTEUR ***************************************/
+div#espace-prd-media-listing {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+button.espace-prd-media-element-btn {
+  border: 1px solid lightgrey;
+  margin: 16px;
+}
+span.espace-prd-media-element-delete-btn {
+  float: right; margin-right: -6px;
+}
+span.espace-prd-media-element-desc {
+  float: left;
+  margin-left: -8px;
+}
+.custom-file-label::after {
+  content: "..." !important;
+}
+form.cet-file-upload-dropzone {
+  background-color: white;
+  border: 1px dashed rgb(30,40,30);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-color: inherit;
+}
+div.dz-preview.dz-image-preview {
+  background-color: inherit !important;
+}
+div.cet-file-upload-dropzone-bloc {
+  padding: 0px !important;
+  color: rgb(30,40,30) !important;
+}
+div.dz-message {
+  margin: 0px !important;
+  text-align: left !important;
+}
+/******************************************************************/
+
+/** LIEUX DE DISTRIBUTION **********************************************/
+table#lieux-dist-table-recap-lieux td, th {
+  border: 1px solid #6C3012  !important;
+}
+table#lieux-dist-table-recap-lieux th {
+  text-align: center;
+}
+table#lieux-dist-table-recap-lieux {
+  background-color: rgba(252,255,255, 0.3);
+  color: #6C3012 !important;
+}
+span.lieux-dist-recap-liste-sup {
+  color: #DD4215 !important;
+}
+span.lieux-dist-recap-liste-sup:hover {
+  cursor: pointer;
+  color: red !important;
+}
+
+small.nouveau-marche-error-message {
+  color: red !important;
+  margin-left: 3px;
+  display: none;
+}
+/***********************************************************************/
+img.lieuxdevente-logo-entite {
+  /*max-height: 212px;*/
+  border-radius: 6px;
+}
+p.lieuxdevente-logo-entite-container {
+  text-align: center;
+}

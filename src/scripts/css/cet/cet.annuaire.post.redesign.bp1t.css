@@ -1,0 +1,16 @@
+
+a.cet-green-link {
+  /*color: #059b30;*/
+  color: rgb(16,16,16);
+  /*font-family: Signika;*/
+}
+
+div#zone-homepage-recherche-searchbar {
+  background-color: #bdddea !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#zone-homepage-recherche-searchbar-container {
+  
+}

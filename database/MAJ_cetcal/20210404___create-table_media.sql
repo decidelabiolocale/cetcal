@@ -1,0 +1,12 @@
+use cetcal;
+CREATE TABLE cetcal_media (
+  id INT NOT NULL AUTO_INCREMENT,
+  libelle VARCHAR(512) DEFAULT NULL,
+  type VARCHAR(8) NOT NULL,
+  ext VARCHAR(8) NOT NULL,
+  urlr VARCHAR(1024) NOT NULL,
+  cible VARCHAR(32) NOT NULL,
+  fk_producteur INT DEFAULT NULL,
+  fk_entite INT DEFAULT NULL,
+  PRIMARY KEY (id)
+);

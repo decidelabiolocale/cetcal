@@ -1,0 +1,107 @@
+tr.admin-entite-administrer:hover {
+	cursor: pointer;
+	background-color: lightyellow !important;
+}
+
+.cet-accordion-admin { 
+	background-color: white; 
+	border: 1px solid lightgrey; 
+	border-radius: 4px; 
+	margin-bottom: 20px;
+}
+
+.cet-accordion-admin-critique { 
+	border-top: 1px solid lightgrey; 
+}
+
+table.cetcal-admin-table {
+  table-layout: auto;
+}
+
+table.cetcal-admin-table th {
+  border: none !important;
+}
+
+table.cetcal-admin-table-producteur th {
+  border: none !important;
+}
+
+td.cetcal-admin-table-td {
+	white-space: normal !important; 
+  	word-wrap: break-word;  
+}
+
+td.admin-producteur-wordbreakable {
+  word-break: break-all;
+}
+
+/******** ESPACE MEDIA ENTITES ***************************************/
+div#espace-entite-media-listing {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+button.entite-media-element-btn {
+  border: 1px solid lightgrey;
+  margin: 16px;
+}
+span.entite-media-element-delete-btn {
+  float: right; margin-right: -6px;
+}
+span.entite-media-element-desc {
+  float: left;
+  margin-left: -8px;
+}
+.custom-file-label::after {
+  content: "..." !important;
+}
+form.cet-file-upload-dropzone {
+  background-color: white;
+  border: 1px dashed rgb(30,40,30);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-color: inherit;
+}
+div.dz-preview.dz-image-preview {
+  background-color: inherit !important;
+}
+div.cet-file-upload-dropzone-bloc {
+  padding: 0px !important;
+  color: rgb(30,40,30) !important;
+}
+div.dz-message {
+  margin: 0px !important;
+  text-align: left !important;
+}
+/******************************************************************/
+
+button.cet-admin-borderless-button {
+  border: 0px !important;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 0px !important;
+  color: black;
+}
+div#table-histo-admin-activites-container {
+  position: relative;
+  height: 128px;
+  overflow: auto;
+}
+div.table-wrapper-scroll-y {
+  border: 1px solid grey;
+}
+table#table-histo-admin-activites {
+  font-size: 14px;
+  background-color: rgb(240, 250, 252);
+}
+table#table-histo-admin-activites th, td {
+  padding-left: 6px !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+tr.admin-histo-action-row:hover {
+  cursor: pointer;
+  background-color: lightyellow !important;
+}

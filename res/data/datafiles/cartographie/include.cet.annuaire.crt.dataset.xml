@@ -1,0 +1,362 @@
+<producteurs>
+  <producteur>
+      <pk>2</pk>
+      <nom>MARSEILLE</nom>
+      <prenom>Emmanuel</prenom>
+      <email>brasserielanove@gmail.com</email>
+      <addresscrt>129%20Avenue%20Aristide%20BRIAND%20-%20Bât%205%20BERGERAC%2024100%20</addresscrt>
+      <address>129 Avenue Aristide BRIAND - Bât 5 BERGERAC 24100 </address>
+      <nomferme>SCOP SARL BRASSERIE LA NOVE</nomferme>
+      <urlfb>https://www.facebook.com/MANU.BEA.MARSEILLE/</urlfb>
+      <urlig>brasserie_lanove</urlig>
+      <grpcagette>https://app.cagette.net/home</grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe>0682879962</telfixe>
+      <telport>0682879962</telport>
+      <latlng>44.848852/0.463134</latlng>
+  </producteur>
+  <producteur>
+      <pk>3</pk>
+      <nom>Derrett</nom>
+      <prenom>Christopher </prenom>
+      <email>christopherderrett@hotmail.fr</email>
+      <addresscrt>1%20Route%20de%20Beurret%20Beurret%20Les%20Artigues%20de%20Lussac%2033570%20</addresscrt>
+      <address>1 Route de Beurret Beurret Les Artigues de Lussac 33570 </address>
+      <nomferme>Scea des Vergers de Gaillard et Beurret</nomferme>
+      <urlfb></urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe></telfixe>
+      <telport>0608828290</telport>
+      <latlng>44.97069/-0.149692</latlng>
+  </producteur>
+  <producteur>
+      <pk>5</pk>
+      <nom>CHASSAGNE</nom>
+      <prenom>Martin</prenom>
+      <email>contact@saveursduboisduroc.fr</email>
+      <addresscrt>%20La%20Félière%20Monestier%2024240%20</addresscrt>
+      <address> La Félière Monestier 24240 </address>
+      <nomferme>Les Saveurs du Bois du Roc</nomferme>
+      <urlfb></urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe>0553229046</telfixe>
+      <telport></telport>
+      <latlng>44.78/0.4</latlng>
+  </producteur>
+  <producteur>
+      <pk>6</pk>
+      <nom>Thellier</nom>
+      <prenom>Véronique</prenom>
+      <email>cablanc@orange.fr</email>
+      <addresscrt>%20Cablanc%20Saussignac%2024240%20</addresscrt>
+      <address> Cablanc Saussignac 24240 </address>
+      <nomferme>Ecolieu de Cablanc</nomferme>
+      <urlfb>@Cablanc.fr</urlfb>
+      <urlig>cablanc.ecolieu.authentique</urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww>https://www.cablanc.com/accueil/</urlwww>
+      <urlboutique></urlboutique>
+      <telfixe></telfixe>
+      <telport>0603769933</telport>
+      <latlng>44.783429/0.304601</latlng>
+  </producteur>
+  <producteur>
+      <pk>7</pk>
+      <nom>CADIOT</nom>
+      <prenom>Jean-Claude</prenom>
+      <email>arno33@gmail.com</email>
+      <addresscrt>4%20ROUTE%20NATIONALE%20LA%20TUILERIE%20CASSEUIL%2033190%20</addresscrt>
+      <address>4 ROUTE NATIONALE LA TUILERIE CASSEUIL 33190 </address>
+      <nomferme>Le Potager du Dropt</nomferme>
+      <urlfb></urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe></telfixe>
+      <telport>0782134144</telport>
+      <latlng>44.580808/-0.139592</latlng>
+  </producteur>
+  <producteur>
+      <pk>8</pk>
+      <nom>TERRAL</nom>
+      <prenom>FRANCK ET VERONIQUE</prenom>
+      <email>moulindepeyronin@yahoo.fr</email>
+      <addresscrt>%20Peyronnin%20pujols%2033350%20chateau%20moulin%20de%20peyronin</addresscrt>
+      <address> Peyronnin pujols 33350 chateau moulin de peyronin</address>
+      <nomferme>CHATEAU MOULIN DE PEYRONIN</nomferme>
+      <urlfb>https://www.facebook.com/Chateaumoulindepeyronin/</urlfb>
+      <urlig></urlig>
+      <grpcagette>vins biodynamiques</grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww>http://www.chateaumoulindepeyronin.com</urlwww>
+      <urlboutique></urlboutique>
+      <telfixe>0557407934</telfixe>
+      <telport>0664131665</telport>
+      <latlng>44.83/-0.02</latlng>
+  </producteur>
+  <producteur>
+      <pk>9</pk>
+      <nom>RICHARD</nom>
+      <prenom>Aude</prenom>
+      <email>chateaufourtonlagarenne@gmail.com</email>
+      <addresscrt>321%20passage%20de%20Fourton%20NERIGEAN%2033750%20</addresscrt>
+      <address>321 passage de Fourton NERIGEAN 33750 </address>
+      <nomferme>Château Fourton La Garenne</nomferme>
+      <urlfb>https://www.facebook.com/FourtonLaGarenne</urlfb>
+      <urlig>@fourtonlagarenne</urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww>https://www.fourtonlagarenne.com</urlwww>
+      <urlboutique></urlboutique>
+      <telfixe></telfixe>
+      <telport>0676983978</telport>
+      <latlng>49.2373606/6.9920625</latlng>
+  </producteur>
+  <producteur>
+      <pk>10</pk>
+      <nom>clisson</nom>
+      <prenom>céline</prenom>
+      <email>fermededurege@live.fr</email>
+      <addresscrt>7%20Durège%20PESSAC%20SUR%20DORDOGNE%2033890%20</addresscrt>
+      <address>7 Durège PESSAC SUR DORDOGNE 33890 </address>
+      <nomferme>Ferme de Durege</nomferme>
+      <urlfb>https://www.facebook.com/Ferme-de-Dur%C3%A8ge-13187509182164</urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww>http://fermededurege.over-blog.com/</urlwww>
+      <urlboutique>http://www.grainesrebelles.kingeshop.com/</urlboutique>
+      <telfixe>0951958210</telfixe>
+      <telport></telport>
+      <latlng>44.810775/0.080126</latlng>
+  </producteur>
+  <producteur>
+      <pk>11</pk>
+      <nom>Dellac</nom>
+      <prenom>Bruno</prenom>
+      <email>vignoblesdellac@gmail.com</email>
+      <addresscrt>1%20Grange%20Les%20Salles%20de%20Castillon%2033350%20</addresscrt>
+      <address>1 Grange Les Salles de Castillon 33350 </address>
+      <nomferme>Chateau du Tertre Bel AIr</nomferme>
+      <urlfb></urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe>0557406578</telfixe>
+      <telport>0616384962</telport>
+      <latlng>44.922889/-0.009207</latlng>
+  </producteur>
+  <producteur>
+      <pk>12</pk>
+      <nom>F de la Bardonnie</nom>
+      <prenom>Hélène</prenom>
+      <email>helenedu24@gmail.com</email>
+      <addresscrt>941%20Route%20de%20couin%20Laroque%20Saint%20Antoine%20de%20Breuilh%2024230%20</addresscrt>
+      <address>941 Route de couin Laroque Saint Antoine de Breuilh 24230 </address>
+      <nomferme>Les fées des plantes</nomferme>
+      <urlfb></urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe></telfixe>
+      <telport>0611458044</telport>
+      <latlng>44.857723/0.137753</latlng>
+  </producteur>
+  <producteur>
+      <pk>13</pk>
+      <nom>de TOURNEMIRE</nom>
+      <prenom>Antoine et Barbara</prenom>
+      <email>lesboeufsdelagrange@gmail.com</email>
+      <addresscrt>146%20Route%20des%20Palus%20Domaine%20de%20Lagrange%20SAINT%20LOUBÈS%2033450%20</addresscrt>
+      <address>146 Route des Palus Domaine de Lagrange SAINT LOUBÈS 33450 </address>
+      <nomferme>Les bœufs de Lagrange</nomferme>
+      <urlfb></urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe>0556506812</telfixe>
+      <telport>0625451507</telport>
+      <latlng>44.92/-0.4</latlng>
+  </producteur>
+  <producteur>
+      <pk>15</pk>
+      <nom>VERSOS</nom>
+      <prenom>Valérie</prenom>
+      <email>vlversos24@gmail.com</email>
+      <addresscrt>%20%20saint-gery%2024400%20paufy</addresscrt>
+      <address>  saint-gery 24400 paufy</address>
+      <nomferme>Ferme de Paufy</nomferme>
+      <urlfb>https://www.facebook.com/Ferme-de-Paufy-232463163862468/</urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww>www.fermedepaufy.com</urlwww>
+      <urlboutique>www.fermedepaufy.com</urlboutique>
+      <telfixe>0620825056</telfixe>
+      <telport>0620366606</telport>
+      <latlng>44.969524/0.349815</latlng>
+  </producteur>
+  <producteur>
+      <pk>16</pk>
+      <nom>Martin</nom>
+      <prenom>Marion</prenom>
+      <email>douceuronaturel@gmail.com</email>
+      <addresscrt>%20%20St%20Germain%20du%20Puch%2033750%20</addresscrt>
+      <address>  St Germain du Puch 33750 </address>
+      <nomferme>Douceur Ô Naturel</nomferme>
+      <urlfb>https://www.facebook.com/Douceur-%C3%B4-Naturel-961787737326</urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww>www.douceuronaturel.com</urlwww>
+      <urlboutique>www.douceuronaturel.com</urlboutique>
+      <telfixe></telfixe>
+      <telport>0648668286</telport>
+      <latlng>44.83/-0.36</latlng>
+  </producteur>
+  <producteur>
+      <pk>17</pk>
+      <nom>ESTINGOY</nom>
+      <prenom>Yann </prenom>
+      <email>Laspirulinedejulie@hotmail.com</email>
+      <addresscrt>5%20Le%20fougueyra%20Flaujagues%2033350%20</addresscrt>
+      <address>5 Le fougueyra Flaujagues 33350 </address>
+      <nomferme>La spiruline de Julie </nomferme>
+      <urlfb>La spiruline de Julie</urlfb>
+      <urlig>La spiruline de Julie </urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww>Www.laspirulinedejulie.com</urlwww>
+      <urlboutique>Www.laspirulinedejulie.com</urlboutique>
+      <telfixe>0607578502</telfixe>
+      <telport>0607578502</telport>
+      <latlng>44.835266/0.033127</latlng>
+  </producteur>
+  <producteur>
+      <pk>18</pk>
+      <nom>BESSON</nom>
+      <prenom>Bruno</prenom>
+      <email>besson.bruno@club-internet.fr</email>
+      <addresscrt>%20BEAUCHAMP%20MONTPEYROUX%2024610%20</addresscrt>
+      <address> BEAUCHAMP MONTPEYROUX 24610 </address>
+      <nomferme>Fournil "LEVAIN SUR 20"</nomferme>
+      <urlfb></urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe>0553814070</telfixe>
+      <telport>0602358868</telport>
+      <latlng>44.95/0.08</latlng>
+  </producteur>
+  <producteur>
+      <pk>19</pk>
+      <nom>casamajou</nom>
+      <prenom>cécile</prenom>
+      <email>biogenissac@gmail.com</email>
+      <addresscrt>%20chemin%20de%20la%20croix%20%20génissac%2033420%20</addresscrt>
+      <address> chemin de la croix  génissac 33420 </address>
+      <nomferme>génissac bio</nomferme>
+      <urlfb>https://www.facebook.com/G%C3%A9nissac-BIO-Mara%C3%AEchage-B</urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe></telfixe>
+      <telport></telport>
+      <latlng>44.862192/-0.258555</latlng>
+  </producteur>
+  <producteur>
+      <pk>20</pk>
+      <nom>ERESUE</nom>
+      <prenom>Patrick</prenom>
+      <email>chainchon@wanadoo.fr</email>
+      <addresscrt>1%20Chainchon%20CASTILLON%20LA%20BATAILLE%2033350%20</addresscrt>
+      <address>1 Chainchon CASTILLON LA BATAILLE 33350 </address>
+      <nomferme>CHATEAU DE CHAINCHON</nomferme>
+      <urlfb>Patrick Eresue</urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww>www.chateau-chainchon.fr</urlwww>
+      <urlboutique></urlboutique>
+      <telfixe></telfixe>
+      <telport>0608851958</telport>
+      <latlng>44.863526/-0.018751</latlng>
+  </producteur>
+  <producteur>
+      <pk>21</pk>
+      <nom>Haguenin</nom>
+      <prenom>Mélanie</prenom>
+      <email>lescarderievins@orange.fr</email>
+      <addresscrt>6%20rue%20de%20Goffre%20Saint%20Germain%20de%20la%20Rivière%2033240%20</addresscrt>
+      <address>6 rue de Goffre Saint Germain de la Rivière 33240 </address>
+      <nomferme>Château l'Escarderie</nomferme>
+      <urlfb></urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe></telfixe>
+      <telport>0613617667</telport>
+      <latlng>44.945217/-0.321374</latlng>
+  </producteur>
+  <producteur>
+      <pk>22</pk>
+      <nom>Durand</nom>
+      <prenom>Pascal </prenom>
+      <email>durandpascal0605@gmail.com</email>
+      <addresscrt>12%20Churchill%20Roosevelt%20Sainte%20terre%2033350%2012%20bis%20Churchill%20Roosevelt</addresscrt>
+      <address>12 Churchill Roosevelt Sainte terre 33350 12 bis Churchill Roosevelt</address>
+      <nomferme>Durand</nomferme>
+      <urlfb></urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe></telfixe>
+      <telport>0687065420</telport>
+      <latlng>44.821382/-0.13793</latlng>
+  </producteur>
+  <producteur>
+      <pk>23</pk>
+      <nom>de Conti</nom>
+      <prenom>François</prenom>
+      <email>chateau.belles.filles@gmail.com</email>
+      <addresscrt>%20Les%20Eymaries%2024240%20-%20THENAC%2024240%20</addresscrt>
+      <address> Les Eymaries 24240 - THENAC 24240 </address>
+      <nomferme>chateau Belles Filles</nomferme>
+      <urlfb></urlfb>
+      <urlig></urlig>
+      <grpcagette></grpcagette>
+      <urltwitter></urltwitter>
+      <urlwww></urlwww>
+      <urlboutique></urlboutique>
+      <telfixe>0553245211</telfixe>
+      <telport>0622204138</telport>
+      <latlng>44.75508/0.333868</latlng>
+  </producteur>
+</producteurs>

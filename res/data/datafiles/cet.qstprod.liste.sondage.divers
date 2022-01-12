@@ -1,0 +1,133 @@
+s002;Vous êtes :
+s002;Propriétaire du foncier
+s002;En fermage et location pour vos bâtiments
+s002;Propriétaire d’une grande partie et en fermage pour certaines parcelles
+s002;En espace test
+#
+s003;Vous êtes installé :
+s003;Sur la ferme familiale
+s003;Hors cadre familial
+#
+s024;Vous êtes :
+s024;En association ou société
+s024;Cotisant principal
+s024;Cotisant solidaire
+s024;Au titre du suivi
+#
+s004;Avez vous bénéficié :
+s004;D’une formation agricole (BPREA, CAP, BEP, Bac Pro, DEUT...)
+s004;Formation sur le tas
+s004;Aucune formation agricole
+s004;D'une reconversion
+#
+s021;Vous avez recours à :
+s021;un ou plusieurs aidants familiaux sur la partie exploitation
+s021;une entreprise de prestation de service
+s021;une aide administrative (professionnelle ou familiale)
+s021;Une CUMA
+s021;Une aide pour la communication
+#
+s022;Faîtes vous appel à :
+s022;un centre de gestion agréé
+s022;à un comptable
+s022;Vous vous chargez vous même de votre comptabilité
+#
+s005;Selon vous les produits avec label Bio sont ils vendus :
+s005;trop cher
+s005;Vraiment trop cher
+s005;pas assez cher
+s005;Vraiment pas assez cher
+#
+s023;Vos produits sont ils vendus
+s023;moins cher
+s023;au même prix que dans la grande distribution
+s023;plus cher
+s023;vous ne savez pas
+#
+s017;Quels critères utilisez-vous pour fixer vos prix ?
+s017;Prix de la concurrence locale
+s017;Prix du marché (voir agrimer, ex. agrimer Bio et agrimer en gros) (Agrimer)
+s017;Calcul à partir du temps passé plus vos charges
+#
+s006;Votre clientèle est selon vos observations plutôt :
+s006;plutôt des gens aisés
+s006;constituée d’une majorité de personnes ayant des faibles revenus
+s006;Mixte (toutes les classes sociales sont présentes)
+#
+s007;Êtes vous en mesure de vous verser un salaire ?
+s007;oui, tous les mois
+s007;oui, parfois
+s007;non, jamais
+#
+s009;Pensez vous travailler
+s009;trop d’heures
+s009;trop dur
+s009;trop d’heures et trop dur
+s009;normalement comme la plupart des personnes
+#
+s001;Quels sont vos besoins et difficultés ?
+s001;manque de temps
+s001;manque de main d’œuvre
+s001;manque d'équipement
+s001;manque de moyens financiers
+s001;manque de connaissances techniques
+s001;trop d'invendus en fin de marché
+s001;trop de charge de travail
+s001;trop de temps passé pour commercialiser
+s001;prix de vente trop bas
+s001;la pénibilité de votre métier
+s001;livraisons compliquées
+s001;l’impossibilité de partir en vacances
+s001;l’impact sur votre vie familiale / vie de couple
+#
+s012;Quelle est l’activité qui peut parfois vous peser ?
+s012;la commercialisation vous prend trop de temps
+s012;le travail administratif vous demande trop de temps
+s012;Les livraisons vous demandent trop de temps
+s012;La production (trop pénible, pas assez outillé, ...) est compliquée
+#
+s013;Selon vous, estimez vous être suffisamment Équipé en outillage / mécanisation
+s013;oui
+s013;non
+s013;pas assez
+s013;trop vétuste
+#
+s014;Selon vous, estimez vous être suffisamment conseillé techniquement ?
+s014;oui
+s014;non
+s014;pas assez
+#
+s015;Épaulé en cas d’imprévu, d’urgence, de catastrophe météorologique
+s015;oui
+s015;non
+s015;pas assez
+#
+s010;Considérez vous que votre travail est
+s010;Reconnu à sa juste valeur
+s010;Pas assez connu pour être reconnu à sa juste valeur
+s010;Dénigré systématiquement
+#
+s016;Selon vous, vous pensez que si certains domaines de votre activité (commercialisation, livraisons, travail administratif...) pouvaient être géré différemment vous pourriez produire :
+s016;Plus
+s016;Mieux
+s016;Autant mais bénéficier de quelque repos ou loisirs
+s016;Aucune des trois réponses précédentes car vous êtes déjà au maximum de votre capacité de production
+#
+#s008;Vos produits sont ils vendus
+#s008;au même prix que dans la grande distribution
+#s008;moins cher
+#s008;plus cher
+#s008;vous ne savez pas
+#
+s025;vous aimeriez produire plus ?
+s025;Oui
+s025;Non
+#
+s026;vous aimeriez être plus proche de vos valeurs ?
+s026;Oui
+s026;Non
+#
+s027;votre organisation est-elle optimum ?
+s027;Oui
+s027;Non
+#

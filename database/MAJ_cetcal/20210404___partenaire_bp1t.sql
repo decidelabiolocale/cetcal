@@ -1,0 +1,1 @@
+update cetcal_partenaires_liens set denomination ='<img src="./res/content/icons/bonpour1tour/bp1t_02.jpg" height="52" > bonpour1tour' where description LIKE'%bonpour1tour%';

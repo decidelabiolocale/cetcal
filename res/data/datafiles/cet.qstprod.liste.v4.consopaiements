@@ -1,0 +1,10 @@
+#question-clef=c003
+#question-valeure-literale="Comment les consommateurs peuvent vous payer ? Les Moyens de paiement (plusieurs options possibles)"
+c003;Carte bleue
+c003;Application paiement en ligne (Paypal, Pumkin, Lidya)
+c003;Chèques
+c003;Espèces
+c003;Ticket restaurant
+c003;Virement bancaire
+c003;Monnaie locale (MIEL ...)
+c003;Autre

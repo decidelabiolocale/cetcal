@@ -1,0 +1,256 @@
+#cet-annuaire-crt-main { 
+	border-radius: 4px;
+}
+.leaflet-popup-tip, .leaflet-popup-content-wrapper { 
+	background-color: white !important; 
+  /*opacity: 0.9;*/
+	font-family: 'Signika', sans-serif;
+	padding-right: 16px !important;
+}
+.cet-ann-crt-popuptext, .cet-ann-crt-head-text { 
+	font-family: 'Signika', sans-serif;
+	color: #DD4215 !important; 
+	font-size: 16px;
+	font-weight: bold;
+}
+.cet-ann-crt-popuptext-marches {
+	font-family: 'Courgette', cursive;
+  color:  #007E33 !important;
+  font-size: 16px;
+	font-weight: bold;
+}
+.cet-ann-crt-head-text { margin-top: 8px !important; }
+img.mini-fiche-logo-element {
+  display: inline-block;
+  /*float: right;*/
+  padding: 6px;
+  height: 128px;
+  /*margin-right: -18px;*/
+  /*border: 1px solid lightgray;*/
+  border-radius: 6px;
+}
+p.mini-fiche-logo-element-container {
+  text-align: center;
+}
+#cet-annuaire-crt-mini-fiche-producteur-container {
+	border-radius: 4px;
+	background-color: white !important; 
+  	color: #6C3012 !important; 
+  	font-family: 'Signika', sans-serif;
+}
+#cet-annuaire-crt-mini-fiche-producteur-libelle {
+	margin-top: 8px;
+}
+#cet-annuaire-crt-mini-fiche-producteur {
+	margin-top: 8px;
+	margin-left: 2px;
+}
+#cet-annuaire-crt-main-container {
+}
+#cet-annuaire-crt-bootstrap-wrapper{
+}
+#cet-ann-crt-ctrl-a-id {
+	display: block;
+	background-color: white !important;
+	border: 1px solid rgb(160, 160, 160);
+	border-radius: 3px;
+	padding: 4px;
+	height: 40px !important;
+	width: 40px !important;
+	/*-webkit-box-shadow: 6px 6px 11px -4px rgba(92,92,92,1);
+	-moz-box-shadow: 6px 6px 11px -4px rgba(92,92,92,1);
+	box-shadow: 6px 6px 11px -4px rgba(92,92,92,1);*/
+}
+.cet-an-crt-btn { 
+	/* bouton de carton popup. Btn vers page producteur */
+	color: white !important;
+	background-color: #DD4215 !important; 
+	border: 1px solid #DD4215 !important;
+}
+.cet-an-crt-btn:hover {
+	text-decoration: underline !important;
+}
+.cet-crt-icon { margin-top: 6px; margin-right: 6px; }
+.cet-crt-link { color: #007E33 !important; }
+
+div.tt-menu { 
+  background-color: white !important; 
+  z-index: 10000 !important; 
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin-top: 2px !important;
+  color: rgb(50, 70, 50);
+  padding-top: 4px;
+}
+div.tt-suggestion, div.tt-selectable { 
+  background-color: white !important; 
+  z-index: 10000 !important; 
+  padding: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+div.tt-suggestion:hover {
+	background-color: lightyellow !important;
+	cursor: pointer;
+}
+#crt-search-parametres {
+	margin-right: 0px !important;
+	float: right;
+	font-style: italic;
+}
+
+/**
+ * Marker cluster
+ */
+.marker-cluster-small {
+  background-color: rgba(255, 191, 4, 0.8) !important;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 16px !important;
+}
+.marker-cluster-small div {
+  background-color: rgba(255, 191, 4, 0.8) !important;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 16px !important;
+}
+.marker-cluster-medium {
+  background-color: rgba(255, 191, 4, 0.8) !important;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 16px !important;
+}
+.marker-cluster-medium div {
+  background-color: rgba(255, 191, 4, 0.8) !important;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 16px !important;
+}
+
+.marker-cluster-large {
+  background-color: rgba(255, 191, 4, 0.8) !important;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 16px !important;
+}
+.marker-cluster-large div {
+  background-color: rgba(255, 191, 4, 0.8) !important;
+  font-family: 'Signika', sans-serif !important;
+  font-size: 16px !important;
+}
+
+/** ********************************
+ * Filtres
+ */
+div.cet-cartographie-filtre-input-container {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+div.cet-cartographie-filtre-input-container .form-check-input {
+  margin-top: 8px !important;
+}
+
+div#dropdown-filtres-cartographie-liste button#valider-filtres-types-cartographie {
+  float: right !important;
+  margin-right: 16px;
+}
+
+div#dropdown-filtres-cartographie-liste {
+  min-width: 256px;
+}
+
+span#dropdown-filtres-count {
+  background-color: #009c31;
+  color: white;
+  padding-top: 4px;
+  font-size: 16px;
+}
+
+/**
+ * éléments de recherche avancée.
+ */
+div.bloc-rav-element-resultat:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+div.bloc-rav-element-resultat {
+  margin: 18px;
+}
+div.rav-element-resultat {
+  font-family: Signika 12pt;
+  color: #059b30;
+  padding: 12px;
+}
+div.rav-element-resultat-type {
+  font-family: Courgette 12pt;
+  color: #059b30;
+  padding: 12px;
+}
+a.cet-crt-rav-resultat-link {
+  color: #059b30;
+  font-weight: bold;
+}
+p.detail-rav-resultats {
+  margin-top: 12px;
+  margin-left: 18px;
+  font-family: Courgette 12pt;
+  color: #059b30;
+  font-weight: bold;
+}
+#zone-homepage-recherche-avancee {
+  background-color: #bdddea !important;
+  padding: 12px;
+}
+div.rav-categories-checkbox-div {
+  padding-left: 32px;
+}
+div.cet-rav-input-group-text {
+  min-width: 156px !important;
+  color: white; /* #059b30 !important; */
+  font-family: Signika 12pt !important; 
+  font-weight: bold !important;
+  background-color: #79b9d4;
+}
+span.rav-produit-critere {
+  padding: 12px;
+  margin: 4px;
+  background-color: #de4317 !important;
+}
+i.rav-produit-critere-supprimer {
+  margin-left: 4px;
+  font-size: 12px;
+}
+i.rav-produit-critere-supprimer:hover {
+  cursor: pointer;
+}
+#categories-rav-dropdown-container {
+  padding-top: 4px;
+  margin-top: -3px;
+}
+div.rav-categories-desc:hover {
+  cursor: alias;
+  background-color: white;
+  margin: 0px !important;
+  color: #059b30;
+  font-weight: bold;
+  margin-bottom: 12px !important;
+}
+div.rav-categories-desc {
+  cursor: alias;
+  background-color: white;
+  margin: 0px !important;
+  color: #059b30;
+  font-weight: bold;
+  margin-bottom: 12px !important;
+}
+div#rav-dropdown-envoyer:hover {
+  background-color: white;
+}
+#rav-dropdown-envoyer-button {
+  width: 100% !important;
+  font-weight: bold;
+}
+#afficher-recherche-avancee {
+  style="font-size: 14px;"
+  text-decoration: none;
+}
+#afficher-recherche-avancee:hover {
+  text-decoration: none;
+  color: white;
+}

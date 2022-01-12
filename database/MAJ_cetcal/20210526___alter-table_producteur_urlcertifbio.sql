@@ -1,0 +1,1 @@
+alter table cetcal_producteur add column urlcertifab varchar(1024) default NULL;
