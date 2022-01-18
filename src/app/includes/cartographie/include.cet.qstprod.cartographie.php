@@ -60,6 +60,7 @@ $loader->loadCommunes();
                 <infosltrl><?= $prdDto->infosLtrl; ?></infosltrl>
                 <fournisseurcet><?= $prdDto->fournisseurcet; ?></fournisseurcet>
                 <logoferme><?= $media_controller->selectSrcLogoFemreProducteur($prdDto->getPk()); ?></logoferme>
+                <typeprd><?= $prdDto->typeDeProduction; ?> </typeprd>
                 <?php $certif_bioab = $certif_controller->getCertificationProducteur($prdDto->getPk()); ?>
                 <certifbioab><?= $certif_bioab === false ? 'false' : 'true'; ?></certifbioab>
                 <certifbioaburl>
