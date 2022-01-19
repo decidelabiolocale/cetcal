@@ -1,0 +1,203 @@
+.wrapper__ficheprd{
+    width: 43.75rem;
+    margin-bottom: 42px;
+
+}
+
+p {
+    padding: 0;
+    margin-bottom: 7px;
+}
+
+.ficheprd__wrapper{
+    background-color: #bdddea;
+}
+
+h3{
+    font-family: Signika;
+    font-weight: bold;
+    font-size: 21px;
+    color: #6d3216;
+}
+
+.produit--producteur,
+.categorie--producteur {
+    border: solid 1px;
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.fiche--producteur{
+    border: solid 1px;
+    border-radius: 15px;
+    padding-top: 25px;
+}
+
+
+.carousel__wrapper{
+    width: 21.875rem;
+    height: 13.75rem;
+    border-radius: 0.75rem;
+}
+
+.card__producteur{
+    width: 21.4375rem;
+    height: 13.75rem;
+    max-width: 21.4375rem;
+    max-height: 13.75rem;
+    border-radius: 0.75rem;
+    margin: 0.875rem 0.4375rem 0.875rem 0.4375rem;
+}
+
+.card__producteur > h2{
+    color: #059b30;
+    font-family: 'Courgette', regular;
+    font-size: 40px;
+}
+
+
+.card__producteur:first-child{
+    background-color: #fee378;
+    color: #FFFFFF;
+}
+
+.img__producteur{
+    width: 21.4375rem;
+    height: 13.75rem;
+    max-width: 21.4375rem;
+    max-height: 13.75rem;
+    border-radius: 0.75rem;
+}
+
+.text__presentation{
+
+    width: 100%;
+    height: 5.9375rem;
+    border-radius: 0.75rem;
+    background: #239a32;
+}
+
+.text__presentation > p{
+    color: #FFFFFF;
+    font-family: Signika, 'regular';
+    font-size: 15px;
+}
+
+.wrapper_infoprd{
+    margin-top: 14px;
+    border-radius: 12px;
+    width: 43.75rem;
+    background-color: #FFFFFF;
+}
+
+address > p{
+    color: black;
+}
+
+.lieux-vente-producteur p {
+    padding: 0;
+    font-family: Signika!important;
+    font-size: 15px!important;
+    color: #804a3f;
+}
+
+.presentation--producteur {
+    border: solid 1px;
+    border-radius: 0.9375rem;
+}
+
+.cst-catProduits{
+    border: solid 2px;
+    border-color: #804a3f;
+    border-radius: 10px;
+    background: #ffff;
+    color: #804a3f;
+    margin: 5px 10px 5px;
+    width: 80px;
+    padding: 6px;
+    display: inline-block;
+    text-align: center;
+}
+.card__horaires,
+.card__coordonnees,
+.card__production,
+.card__lieuxvente,
+.card__autre
+{
+    margin-top: 14px;
+}
+.card__coordonnees p,
+.card__horaires p
+{
+    font-family: Signika;
+    font-size: 18px;
+    color: #804a3f;
+}
+
+address,
+address > p {
+    font-family: Signika!important;
+    font-size: 18px!important;
+    color: #804a3f;
+}
+
+.card_mail{
+    font-family: 'Courgette'!important;
+    font-size: 18px;
+}
+.cst-pills{
+
+    line-height: 1;
+    border-color: #804a3f;
+    color: #ffff;
+    background: #804a3f;
+    font-size: 16px;
+    border-radius: 10rem;
+    margin: 5px 1px 5px;
+    padding: .25em .6em .4em .6em;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+.wrapper__certif{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.wrapper__certif img {
+    width: 90px;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+.wrapper__certif a {
+    color: #1e7e34;
+    margin-left: 14px;
+    text-decoration: none;
+    font-family: Signika;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 576px) {
+    .wrapper__ficheprd{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper__ficheprd{
+        width: 43.75rem;
+    }
+}
+
