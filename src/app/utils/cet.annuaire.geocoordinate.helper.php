@@ -20,10 +20,10 @@ Class GeoCoordinateHelper
     $latitudeFrom, $longitudeFrom, $latitudeTo, $longitudeTo, $earthRadius = 6371000)
   {
     // convert from degrees to radians
-    $latFrom = deg2rad($latitudeFrom);
-    $lonFrom = deg2rad($longitudeFrom);
-    $latTo = deg2rad($latitudeTo);
-    $lonTo = deg2rad($longitudeTo);
+    $latFrom = deg2rad(floatval($latitudeFrom));
+    $lonFrom = deg2rad(floatval($longitudeFrom));
+    $latTo = deg2rad(floatval($latitudeTo));
+    $lonTo = deg2rad(floatval($longitudeTo));
 
     $latDelta = $latTo - $latFrom;
     $lonDelta = $lonTo - $lonFrom;

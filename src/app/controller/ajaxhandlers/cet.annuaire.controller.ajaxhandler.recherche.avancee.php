@@ -23,8 +23,8 @@ $rayon = $json->rayon;
 $categories = $json->categories;
 $categories_entite = $json->entite_types;
 $critere = $json->criteresplus;
-$produits = $json->produits;
-$certification = $json->certification;
+isset( $json->produits ) ? $produits = $json->produits : $produits = [];
+isset( $json->certification) ?  $certification = $json->certification : $certification = "";
 
 $result = [];
 $result_entites = [];
@@ -175,10 +175,11 @@ if (strlen($commune_cp) > 2 && isset($rayon) && $rayon > 0)
 /** ************************************************************************
  * Filtre catégorie d'entités.
  */
+$result_entites = [];
 if (count($categories_entite) > 0)
 {
   error_log("[[ RECHERCHE AVANCEE - categories entites]]");
-  $result_entites = [];
+  
   for ($i = 0; $i < count($entites); ++$i) 
   { 
     $cat = $entites[$i]->type;
