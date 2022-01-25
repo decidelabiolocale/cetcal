@@ -2,7 +2,7 @@ function updateCartoRechercheAvancee(pk_prds, pk_ents, commune_cp, rayon) {
   clusters.clearLayers();
   var count = 0;
   for (var i = 0; i < marker_collection.length; i++) {
-    if (marker_collection[i].type.indexOf('Producteur') !== -1) {
+    if (marker_collection[i].type.indexOf('Associations liées à la BIO Locale') === -1 && marker_collection[i].type.indexOf('AMAP') === -1 && marker_collection[i].type.indexOf('Magasin BIO') === -1 && marker_collection[i].type.indexOf('Marché') === -1) {
       var html = marker_collection[i].mrkr._popup._content;
       var pk = $(html).attr('data');
       if (pk_prds.includes(pk)) {
