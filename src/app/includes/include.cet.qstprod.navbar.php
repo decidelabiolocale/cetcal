@@ -29,8 +29,8 @@
                         <li><a class="navbar-link" href="./">Accueil</a></li>
                         <!--
                           <li><a class="navbar-link" href="./">Notre projet decidelabiolocale.org</a></li>
+                          <li><a class="navbar-link" href="/?statut=base.recettes&anr=true">Livret de recettes</a></li>
                         -->
-                        <li><a class="navbar-link" href="/?statut=base.recettes&anr=true">Livret de recettes</a></li>
                         <li><a class="navbar-link" href="/?statut=aboutus&anr=true">Qui sommes-nous ?</a></li>
                         <li><a class="navbar-link" href="/?statut=partenaires.liens&anr=true">Partenaires et liens utiles</a></li>
                     </ul>
