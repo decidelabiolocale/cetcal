@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+	<meta http-equiv="EXPIRES" content="Sun, 2 Mai 2021 01:12:01 GMT">
+	<title>Annuaire des producteurs bio de la région castillon</title>
+	<meta name="description" content="............">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<!--Scripts css debut-->
+	<link rel="stylesheet" href="/stage/Css/decorations.css">
+
+	<link rel="stylesheet" href="/src/scripts/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/src/scripts/css/font-awesome/css/all.min.css">
+	<link rel="stylesheet" href="/src/scripts/css/cet/cet.accueil.cet.css">
+	<link rel="stylesheet" href="/src/scripts/css/cet/cet.qstprod.css">
+	<link rel="stylesheet" href="/src/scripts/css/cet/cet.qstprod.cartographie.css">
+	<!--        <link rel="stylesheet" href="/src/scripts/css/cet/cet.fichedetailleeprd.css"> -->
+	<link rel="stylesheet" href="/src/scripts/css/cet/cet.annuaire.custom.css">
+	<link rel="stylesheet" href="/src/scripts/css/cet/cet.annuaire.post.redesign.bp1t.css">
+	<link rel="stylesheet" href="/src/scripts/js/timepicker/jquery.timepicker.min.css">
+
+	<!--chargement dynamique des fichiers css-->
+	<link rel="stylesheet" href="/src/scripts/css/cet/cet.aboutus.css">
+	<!--fin -->
+
+	<!--fin-->
+	<!-- start : charte-g Fanny -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Courgette&amp;family=Signika:wght@400;700&amp;display=swap">
+	<!-- end -->
+	<!-- start LeafletJS and Mapbox -->
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.1.0/mapbox-gl.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+		integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+		crossorigin="">
+	<link rel="stylesheet" href="/src/scripts/css/MarkerCluster.css">
+	<link rel="stylesheet" href="/src/scripts/css/MarkerCluster.Default.css">
+	<link rel="stylesheet" href="/src/scripts/css/cet/datepicker.css">
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+		integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+		crossorigin=""></script>
+	<!-- end -->
+	<!--start js homepage-->
+	<script src="/src/scripts/js/cetcal/cet.homepage.js" defer=""></script>
+	<!--end js homepage-->
+	<script src="/src/scripts/js/jquery/jquery-3.4.1.min.js"></script>
+	<script src="/src/scripts/js/popper.min.js"></script>
+	<script src="/src/scripts/js/bootstrap.min.js"></script>
+	<script src="/src/scripts/js/cetcal/cetcal.min.js"></script>
+	<script src="/src/scripts/js/typeahead.0.11.1.min.js"></script>
+
+	<div class="row pb-4">
+		<div
+			class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 herosection-wrapper d-lg-flex d-xl-flex flex-column-reverse flex-lg-row flex-xl-row align-items-xl-center pb-1">
+			<div class="col-12 col-sm-12 col-md-12 col-lg col-xl">
+				<a href="./">
+					<img class="img-fluid" src="/res/content/images-site/decidelabiolocale.png" alt="Responsive image">
+				</a>
+			</div>
+
+			<div class="col-1 col-sm-1 col-md-1 col-lg-2 col-xl-3">
+				<img class="img-fluid" src="/Images/fond-blanc.png" alt="">
+			</div>
+
+			<div class="col-12 col-sm-12 col-md-12 col-lg col-xl">
+				<img class="img-fluid" src="/res/content/images-site/sous-titres.png" alt="Responsive image">
+			</div>
+		</div>
+	</div>
+
+	<div class="col-12 nav-wrapper d-flex p-0">
+		<nav class="col-12 d-flex p-0">
+			<div class="col-9 d-flex p-0">
+				<ul class="d-flex align-items-center h-100">
+					<li><a class="navbar-link" href="https://khaled.decidelabiolocale.org/">Accueil</a></li>
+					<!--
+					  <li><a class="navbar-link" href="./">Notre projet decidelabiolocale.org</a></li>
+					-->
+					<li><a class="navbar-link" href="/?statut=aboutus&anr=true">Qui sommes-nous ?</a></li>
+					<li><a class="navbar-link" href="/stage/index.html">La Bio ICI</a></li>
+					<li><a class="navbar-link" href="/?statut=partenaires.liens&anr=true">Partenaires et liens
+							utiles</a></li>
+				</ul>
+			</div>
+
+			<div class="col-3 d-flex justify-content-end align-items-center ml-auto pl-2">
+				<a id="cet-annuaire-user-login" class="btn-connect" href="/?statut=login.form">connexion /
+					inscription</a>
+			</div>
+		</nav>
+	</div>
+</head>
+<section>
+	<div class="row d-flex justify-content-center mb-5">
+		<div class="col-12 col-md-6 col-lg-6 col-xl-6 flex-column text-aboutus">
+			<h3 class="h3-P">Agriculture biologique
+				Qu’est-ce que c’est ?</h3>
+
+			<p>L’agriculture biologique est une façon naturelle de produire des ali-
+				ments sains, en respectant l’environnement, le bien-être animal et la
+				biodiversité.</p>
+
+			<div>
+				<img class="logo-1" src="/stage/Images/logo-1.PNG" alt="">
+			</div>
+			<br>
+
+
+			<p>▸ Elle s’appuie sur des processus écologiques et
+				n’utilise aucun produit chimique de synthèse
+				(pesticides, herbicides, fertilisants artificiels ou
+				hormones de croissance) ni OGM. Les agriculteurs
+				bio emploient des matières organiques naturelles
+				recyclées et le principe de rotation de cultures.</p>
+
+			<div>
+				<img class="logo-2" src="/stage/Images/logo-2.PNG" alt="">
+			</div>
+			<br>
+
+
+			<p>▸ Le mode d’élevage biologique est fondé sur le res-
+				pect du bien-être animal. Les animaux disposent
+				obligatoirement d’un accès au plein air et d’espace.
+				Ils sont nourris avec des aliments bio principale-
+				ment issus de la ferme et sont soignés en priorité
+				avec des médecines douces.</p>
+
+			<div>
+				<img class="logo-3" src="/stage/Images/logo-3.PNG" alt="">
+			</div>
+			<br>
+
+			<p>Les aliments bio ne contiennent ni exhausteurs de
+				goût, ni colorants, ni arômes chimiques de synthèse.</p>
+
+
+		</div>
+	</div>
+	<div class="row">
+		<!--trait 725px-->
+		<div class="col-12 d-flex justify-content-center">
+			<div class="col-6">
+				<div class="trait--green"></div>
+			</div>
+		</div>
+	</div>
+	<div class="row d-flex justify-content-center">
+		<div class="col-8 mt-5 mb-5">
+			<h6 class="text-center">Contact et crédits</h6>
+		</div>
+	</div>
+
+	<div class="row d-flex justify-content-center">
+		<div class="col-12 col-xs-12 col-md-12 col-lg-3 col-xl-3">
+			<div class=" w-100 address-wrapper d-flex justify-content-center flex-column">
+				<address class="text-center pt-2">
+					<p class="text-center address-card-title">Castillonnais en transition</p>
+					6 ESPLANADE MARCEL JOUANNO<br>
+					33350 CASTILLON-LA-BATAILLE
+					<br>
+					<br>
+					téléphone : 06.81.28.88.03
+					<br>
+					<a class="" href="mailto:contact@decidelabiolocale.org">contact@decidelabiolocale.org</a><br>
+					<div>
+						<a class="cst-pills__green pt-2" href="http://www.castillonnaisentransition.org">site web</a>
+						<a class="pt-2 cst-pills__green"
+							href="https://www.facebook.com/castillonnaisentransition">fb</a>
+					</div>
+				</address>
+			</div>
+		</div>
+		<div class="col-12 col-xs-12 col-md-12 col-lg-2 col-xl-2 d-flex justify-content-center align-items-center">
+			<!--image-->
+			<img class="logo-dcdl mw-100" src="/res/content/images-site/decidela_CET.png" alt="">
+		</div>
+	</div>
+	<div class="row d-flex justify-content-center">
+		<div class="col-12 col-xs-12 col-md-12 col-lg-5 col-xl-5">
+			<div class="d-flex flex-column justify-content-center text-aboutus">
+				<p>Conception éditoriale : Castillonnais En Transition</p>
+				<p>Graphisme : Bon Pour 1 Tour</p>
+			</div>
+		</div>
+
+	</div>
+	<div class="row">
+		<!--Trait 725px-->
+		<div class="col-12 d-flex justify-content-center mt-5 mb-5">
+			<div class="col-6">
+				<div class="trait--green"></div>
+			</div>
+		</div>
+	</div>
+	<div class="row d-flex justify-content-center">
+		<div class="col-12 col-xs-12 col-md-12 col-lg-8 col-xl-8">
+			<div class="d-flex flex-column justify-content-center">
+				<h6 class="text-center">Mention légales</h6>
+			</div>
+		</div>
+
+	</div>
+</section>
+<footer>
+	<div class="row partenaires pt-5">
+		<div class="col-12 d-flex justify-content-center flex-wrap flex-xl-nowrap">
+			<div class="col-3 col-xl-2 d-flex justify-content-center align-items-center">
+				<p class="text-nowrap pt-3">
+					Nos partenaires :
+				</p>
+			</div>
+			<div class="col-3 col-xl-2 d-flex justify-content-center align-items-center">
+				<img class="w-75 mw-100" src="/res/content/partenaires/logo_gironde.jpg" alt="">
+			</div>
+			<div class="col-3 col-xl-2 d-flex justify-content-center align-items-center ">
+				<img class="w-50 mw-100"
+					src="/res/documentation/images-site/Logo_NA_HORIZONTAL_2019/logo_na_horiz_QUADRI_2019.png" alt="">
+			</div>
+			<div class="col-3 col-xl-2 d-flex justify-content-center align-items-center ">
+				<img class="w-50 mw-100" src="/res/content/partenaires/logo_FSE.jpg" alt="">
+			</div>
+			<div class="col-3 col-xl-2 d-flex justify-content-center align-items-center ">
+				<p class="text-nowrap">
+					Mentions légales
+				</p>
+			</div>
+			<div class="col-3 col-xl-2 d-flex justify-content-center align-items-center ">
+				<p><a href="/?statut=administration&amp;anr=true" style="color: black;">Administrateurs CETCAL</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<img class="mw-100" src="/res/content/images-site/bottom.png" alt="">
+		</div>
+	</div>
+</footer>
+
+</html>

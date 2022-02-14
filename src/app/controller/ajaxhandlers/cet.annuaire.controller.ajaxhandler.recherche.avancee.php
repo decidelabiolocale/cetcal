@@ -144,10 +144,10 @@ if (strlen($critere) > 4)
   {
     $string_data = json_encode($producteurs[$i]);
     $produits_string_data = json_encode($model_prd->findProduitByPkProducteur($producteurs[$i]->getPk()));
-    if (strrpos(strtolower($string_data), strtolower($critere)) !== false) 
+    if (strrpos(mb_strtolower($string_data,'UTF-8'), mb_strtolower($critere,'UTF-8')) !== false) 
       array_push($result, $producteurs[$i]);
     else if (isset($produits_string_data) && 
-      strrpos(strtolower($produits_string_data), strtolower($critere)) !== false) 
+      strrpos(mb_strtolower($produits_string_data,'UTF-8'), mb_strtolower($critere,'UTF-8')) !== false) 
       array_push($result, $producteurs[$i]);
   }
 
