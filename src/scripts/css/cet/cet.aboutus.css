@@ -6,7 +6,7 @@
     margin: 0;
     font-family: Signika;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 20px;
     color: #059b30;
 }
 
@@ -15,7 +15,7 @@ h6{
     font-family: Signika;
     font-weight: 900;
     padding: 0;
-    margin: 14px 0 0 0;
+    margin: 20px 0 0 0;
 }
 
 .address-wrapper{
