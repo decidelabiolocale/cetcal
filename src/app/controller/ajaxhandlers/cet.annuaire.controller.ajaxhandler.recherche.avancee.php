@@ -132,6 +132,12 @@ if (count($categories) > 0)
 
   $producteurs = $result;
 }
+else {
+   if (count($categories_entite) > 0) {
+    $producteurs = [];
+    $result = [];
+  }  
+}
 
 /** ************************************************************************
  * Filtre critère de producteur.
