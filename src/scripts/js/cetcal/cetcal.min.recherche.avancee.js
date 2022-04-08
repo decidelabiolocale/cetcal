@@ -40,7 +40,7 @@ function fetchResultatsRechercheAvancee(json_rav) {
       var pk_rav_entites = [];
       var pks = [];
       $('#resultats-recherche-avancee').empty(); 
-      $('#resultats-recherche-avancee').append((data.length <= 0) ? '<p class="detail-rav-resultats">Aucun résultat.</p>' : '<p class="detail-rav-resultats">' + (data.length + data_entites.length) + ' résultats trouvés.</p>'); 
+      $('#resultats-recherche-avancee').append((data.length + data_entites.length <= 0) ? '<p class="detail-rav-resultats">Aucun résultat.</p>' : '<p class="detail-rav-resultats">' + (data.length + data_entites.length) + ' résultats trouvés.</p>'); 
       for (var i in data) {
         resultats.push([data[i].nomferme, 
           '<div id="bloc-rav-' + data[i].pk + '" class="bloc-rav-element-resultat">'
